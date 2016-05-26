@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		663F2AA61CF60E0600F23D40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 663F2AA51CF60E0600F23D40 /* main.m */; };
-		663F2AA91CF60E0600F23D40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 663F2AA81CF60E0600F23D40 /* AppDelegate.m */; };
-		663F2AAC1CF60E0600F23D40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663F2AAB1CF60E0600F23D40 /* ViewController.m */; };
 		663F2AAF1CF60E0600F23D40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663F2AAD1CF60E0600F23D40 /* Main.storyboard */; };
 		663F2AB11CF60E0600F23D40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 663F2AB01CF60E0600F23D40 /* Assets.xcassets */; };
 		663F2AB41CF60E0600F23D40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663F2AB21CF60E0600F23D40 /* LaunchScreen.storyboard */; };
 		663F2ABF1CF60E0600F23D40 /* SeasonalVegetablesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 663F2ABE1CF60E0600F23D40 /* SeasonalVegetablesTests.m */; };
 		663F2ACA1CF60E0600F23D40 /* SeasonalVegetablesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 663F2AC91CF60E0600F23D40 /* SeasonalVegetablesUITests.m */; };
+		666099B61CF74B90001FAB4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 666099B31CF74B90001FAB4E /* AppDelegate.m */; };
+		666099B71CF74B90001FAB4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 666099B51CF74B90001FAB4E /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +37,6 @@
 /* Begin PBXFileReference section */
 		663F2AA11CF60E0600F23D40 /* SeasonalVegetables.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeasonalVegetables.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		663F2AA51CF60E0600F23D40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		663F2AA71CF60E0600F23D40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		663F2AA81CF60E0600F23D40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		663F2AAA1CF60E0600F23D40 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		663F2AAB1CF60E0600F23D40 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		663F2AAE1CF60E0600F23D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		663F2AB01CF60E0600F23D40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		663F2AB31CF60E0600F23D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +47,10 @@
 		663F2AC51CF60E0600F23D40 /* SeasonalVegetablesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeasonalVegetablesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		663F2AC91CF60E0600F23D40 /* SeasonalVegetablesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeasonalVegetablesUITests.m; sourceTree = "<group>"; };
 		663F2ACB1CF60E0600F23D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		666099B21CF74B90001FAB4E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		666099B31CF74B90001FAB4E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		666099B41CF74B90001FAB4E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		666099B51CF74B90001FAB4E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +101,7 @@
 		663F2AA31CF60E0600F23D40 /* SeasonalVegetables */ = {
 			isa = PBXGroup;
 			children = (
-				663F2AA71CF60E0600F23D40 /* AppDelegate.h */,
-				663F2AA81CF60E0600F23D40 /* AppDelegate.m */,
-				663F2AAA1CF60E0600F23D40 /* ViewController.h */,
-				663F2AAB1CF60E0600F23D40 /* ViewController.m */,
-				663F2AAD1CF60E0600F23D40 /* Main.storyboard */,
-				663F2AB01CF60E0600F23D40 /* Assets.xcassets */,
-				663F2AB21CF60E0600F23D40 /* LaunchScreen.storyboard */,
-				663F2AB51CF60E0600F23D40 /* Info.plist */,
+				666099AC1CF74A2B001FAB4E /* SVXClasses */,
 				663F2AA41CF60E0600F23D40 /* Supporting Files */,
 			);
 			path = SeasonalVegetables;
@@ -117,6 +110,10 @@
 		663F2AA41CF60E0600F23D40 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				663F2AAD1CF60E0600F23D40 /* Main.storyboard */,
+				663F2AB01CF60E0600F23D40 /* Assets.xcassets */,
+				663F2AB21CF60E0600F23D40 /* LaunchScreen.storyboard */,
+				663F2AB51CF60E0600F23D40 /* Info.plist */,
 				663F2AA51CF60E0600F23D40 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +135,73 @@
 				663F2ACB1CF60E0600F23D40 /* Info.plist */,
 			);
 			path = SeasonalVegetablesUITests;
+			sourceTree = "<group>";
+		};
+		666099AC1CF74A2B001FAB4E /* SVXClasses */ = {
+			isa = PBXGroup;
+			children = (
+				666099AD1CF74B03001FAB4E /* SVXItems */,
+				666099B11CF74B71001FAB4E /* SVXMain */,
+				666099B01CF74B67001FAB4E /* SVXCategoties */,
+			);
+			path = SVXClasses;
+			sourceTree = "<group>";
+		};
+		666099AD1CF74B03001FAB4E /* SVXItems */ = {
+			isa = PBXGroup;
+			children = (
+				666099BB1CF74DEB001FAB4E /* Seach */,
+				666099BA1CF74DDD001FAB4E /* User */,
+				666099B91CF74DD4001FAB4E /* Shop */,
+				666099B81CF74DBF001FAB4E /* Home */,
+			);
+			path = SVXItems;
+			sourceTree = "<group>";
+		};
+		666099B01CF74B67001FAB4E /* SVXCategoties */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SVXCategoties;
+			sourceTree = "<group>";
+		};
+		666099B11CF74B71001FAB4E /* SVXMain */ = {
+			isa = PBXGroup;
+			children = (
+				666099B21CF74B90001FAB4E /* AppDelegate.h */,
+				666099B31CF74B90001FAB4E /* AppDelegate.m */,
+				666099B41CF74B90001FAB4E /* ViewController.h */,
+				666099B51CF74B90001FAB4E /* ViewController.m */,
+			);
+			path = SVXMain;
+			sourceTree = "<group>";
+		};
+		666099B81CF74DBF001FAB4E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		666099B91CF74DD4001FAB4E /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		666099BA1CF74DDD001FAB4E /* User */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		666099BB1CF74DEB001FAB4E /* Seach */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Seach;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +334,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				663F2AAC1CF60E0600F23D40 /* ViewController.m in Sources */,
-				663F2AA91CF60E0600F23D40 /* AppDelegate.m in Sources */,
+				666099B61CF74B90001FAB4E /* AppDelegate.m in Sources */,
 				663F2AA61CF60E0600F23D40 /* main.m in Sources */,
+				666099B71CF74B90001FAB4E /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +428,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -403,7 +467,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -416,6 +480,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SeasonalVegetables/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tang.SeasonalVegetables;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +492,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SeasonalVegetables/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tang.SeasonalVegetables;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +564,7 @@
 				663F2AD01CF60E0600F23D40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		663F2AD11CF60E0600F23D40 /* Build configuration list for PBXNativeTarget "SeasonalVegetablesTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +573,7 @@
 				663F2AD31CF60E0600F23D40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		663F2AD41CF60E0600F23D40 /* Build configuration list for PBXNativeTarget "SeasonalVegetablesUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +582,7 @@
 				663F2AD61CF60E0600F23D40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
